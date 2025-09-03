@@ -150,24 +150,3 @@ The notebook typically reports the following for each model trained:
 * Calibrate predicted probabilities if you need well-calibrated probability scores.
 
 ---
-
-## Reproducibility checklist
-
-* [ ] Use the same random seed in modeling cells (look for `random_state` in the notebook).
-* [ ] Ensure the same train/test split or use cross-validation for reliable comparison.
-* [ ] Note the exact package versions if you need byte-for-byte reproducibility (use `pip freeze > requirements.txt`).
-
----
-
-## Questions / Edits
-
-If you want, I can:
-
-* Fill this README with the actual numeric metrics and a short automated executive summary by reading the executed notebook and extracting metric values.
-* Generate a one-page PDF summary for sharing.
-
-Tell me which of the two you'd like and I will proceed.
-
----
-
-*Generated automatically — edit any section as needed.*
